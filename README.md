@@ -1,5 +1,5 @@
 # proximity
-Using the provided HMTL/CSS starting files, take this confusing web menu and give it some meaning with the principle of proximity. Visually show the relationships and patterns within the content using appropriate white space. Test your design with the squint test, are the groupings of content clear when squinting?
+Using the provided HMTL/CSS starting files, take this confusing web menu and give it some meaning with the principle of proximity. Visually show the relationships and patterns within the content using appropriate white space. Test your design with the squint test, are the groupings of content clear when squinting from a distance?
 
 You may edit the HTML as needed to make changes to the styles or layout, but keeping the content the same.
 
