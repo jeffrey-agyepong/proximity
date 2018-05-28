@@ -5,4 +5,4 @@ You may edit the HTML as needed to make changes to the styles or layout, but kee
 
 One mark will be given for adding contrast, repetition, and alignment. Use the online text area to explain exactly how you brought in the other three principles.
 
-When finished rename the project folder to proximity-username, zip up the folder and upload it to Moodle for submission. Be sure to include your list of 2 things in the online text area. Late submissions will not be accepted for marking.
+When finished rename the project folder to proximity-username, zip up the folder and upload it to Moodle for submission. Be sure to include your list of explanations for all four principles in the online text area. Late submissions will not be accepted for marking.
