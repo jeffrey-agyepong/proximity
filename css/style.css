@@ -90,7 +90,6 @@ header ul {
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 }
 
 
@@ -164,6 +163,10 @@ header ul {
 		text-transform: uppercase;
 		letter-spacing: 2.5px;
 	}
+
+	.grid-container {
+		grid-template-rows: 1fr;
+	}
 }
 
 
@@ -178,5 +181,9 @@ header ul {
 	.hero-image {
 		height: 70vh;
 		width: 960px;
+	}
+
+	.grid-container {
+		grid-template-columns: 1fr 1fr;
 	}
 }
