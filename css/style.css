@@ -81,14 +81,15 @@ header li {
 
 	header .logo,
 	header .description,
-	ul {
+	ul,
+	section {
 		width: 100%;
 		padding: 15px;
 	}
 
 	.description,
 	.menu-description {
-		inline-size: 350px;
+		inline-size: 300px;
 		overflow-wrap: break-word;
 	}
 
