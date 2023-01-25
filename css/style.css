@@ -91,7 +91,7 @@ header li {
 		font-size: 50px;
 		font-weight: bold;
 		text-transform: uppercase;
-		letter-spacing: 3px;
+		letter-spacing: 2.5px;
 	}
 
 	h2 {
@@ -107,6 +107,6 @@ header li {
 	header p.tagline {
 		font-size: 25px;
 		text-transform: uppercase;
-		letter-spacing: 3px;
+		letter-spacing: 2.5px;
 	}
 }
