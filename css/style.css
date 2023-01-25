@@ -83,7 +83,8 @@ header li {
 		width: 100%;
 	}
 
-	.description {
+	.description,
+	.menu-description {
 		inline-size: 350px;
 		overflow-wrap: break-word;
 	}
