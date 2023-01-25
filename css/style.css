@@ -64,6 +64,7 @@ header li {
 
 	body {
 		font-size: 16px;
+		overflow-x: hidden;
 	}
 
 	/* .container {
