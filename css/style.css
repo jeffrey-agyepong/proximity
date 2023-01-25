@@ -115,14 +115,9 @@ header ul {
 		overflow-x: hidden;
 	}
 
-	.flex {
+	.flex-container {
 		flex-direction: column;
 	}
-
-	/* header,
-	section {
-		max-width: 600px;
-	} */
 
 	header .logo,
 	header .description,
@@ -130,6 +125,10 @@ header ul {
 	section {
 		width: 100%;
 		padding: 15px;
+	}
+
+	.hero-image {
+		max-inline-size: 100%;
 	}
 
 	.description,
