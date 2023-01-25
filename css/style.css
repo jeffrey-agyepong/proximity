@@ -45,6 +45,9 @@ h3 {
 	font-size: 16px;
 }
 
+.center {
+	text-align: center;
+}
 
 header .logo,
 header .description {
@@ -83,7 +86,8 @@ header ul {
 	padding: 20px;
 }
 
-.flex {
+.flex,
+.row {
 	display: flex;
 
 }
@@ -92,7 +96,15 @@ header ul {
 	display: grid;
 }
 
+.column,
+.heading {
+	padding: 20px;
+}
 
+
+.specials {
+	background-color: aqua;
+}
 
 /********************** Your Code Goes Here ******************/
 
@@ -160,7 +172,8 @@ header ul {
 		letter-spacing: 2.5px;
 	}
 
-	.grid-container {
+	.grid-container,
+	.grid-container-drinks {
 		grid-template-rows: 1fr;
 	}
 }
@@ -181,5 +194,10 @@ header ul {
 
 	.grid-container {
 		grid-template-columns: 1fr 1fr;
+	}
+
+	.grid-container-drinks {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
