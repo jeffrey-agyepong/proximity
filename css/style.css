@@ -45,4 +45,68 @@ header li {
 	margin-right: 25px;
 }
 
+.flex {
+	display: flex;
+}
+
 /********************** Your Code Goes Here ******************/
+
+
+
+
+/** Mobile **/
+@media screen and (max-width: 50rem) {
+
+	* {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	/* .container {
+		max-width: 50rem;
+	} */
+
+	.flex {
+		flex-direction: column;
+	}
+
+	header,
+	section {
+		max-width: 600px;
+	}
+
+	header .logo,
+	header .description {
+		width: 100%;
+	}
+
+	p .description {
+		inline-size: 460px;
+	}
+
+	h1,
+	h2,
+	h3 {
+		/* 100px */
+		font-size: 70px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+
+	h2 {
+		/* 72px */
+		font-size: 50px;
+	}
+
+	h3 {
+		/* 48px */
+		font-size: 35px;
+	}
+
+	header p.tagline {
+		font-size: 35px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+}
