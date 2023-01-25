@@ -96,16 +96,16 @@ header li {
 
 	h2 {
 		/* 72px */
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	h3 {
 		/* 48px */
-		font-size: 35px;
+		font-size: 25px;
 	}
 
 	header p.tagline {
-		font-size: 35px;
+		font-size: 25px;
 		text-transform: uppercase;
 		letter-spacing: 3px;
 	}
