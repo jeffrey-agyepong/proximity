@@ -79,13 +79,13 @@ header li {
 		max-width: 600px;
 	}
 
-	header .logo,
-	header .description {
+	header .logo {
 		width: 100%;
 	}
 
-	p .description {
-		inline-size: 460px;
+	.description {
+		inline-size: 350px;
+		overflow-wrap: break-word;
 	}
 
 	h1,
