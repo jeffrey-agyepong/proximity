@@ -86,8 +86,7 @@ header ul {
 	padding: 20px;
 }
 
-.flex,
-.row {
+.flex {
 	display: flex;
 
 }
@@ -199,5 +198,9 @@ header ul {
 	.grid-container-drinks {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.row {
+		display: flex;
 	}
 }
