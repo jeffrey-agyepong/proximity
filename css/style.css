@@ -79,8 +79,11 @@ header li {
 		max-width: 600px;
 	}
 
-	header .logo {
+	header .logo,
+	header .description,
+	ul {
 		width: 100%;
+		padding: 15px;
 	}
 
 	.description,
