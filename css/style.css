@@ -30,10 +30,7 @@ h1 {
 	font-family: 'Oswald', sans-serif;
 }
 
-h1,
-h2 {
-	text-align: center;
-}
+
 
 h1,
 h2,
@@ -178,6 +175,11 @@ footer ul {
 	.menu-description {
 		/* inline-size: 300px; */
 		overflow-wrap: break-word;
+	}
+
+	h1,
+	h2 {
+		text-align: center;
 	}
 
 	h1,
