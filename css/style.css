@@ -33,7 +33,7 @@ h1 {
 h1,
 h2,
 h3 {
-	font-size: 48px;
+	font-size: 85px;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -41,7 +41,7 @@ h3 {
 
 h2 {
 	font-size: 34px;
-	color: #005ab4;
+	color: #dca821;
 }
 
 h3 {
@@ -59,7 +59,7 @@ header .description {
 }
 
 header .description {
-	margin-top: 15px;
+	margin-top: 35px;
 }
 
 header p.tagline {
@@ -121,6 +121,7 @@ header ul {
 
 .menu-description {
 	text-align: left;
+	font-style: italic;
 }
 
 /********************** Your Code Goes Here ******************/
@@ -206,6 +207,8 @@ header ul {
 
 	.grid-container {
 		grid-template-columns: 1fr 1fr;
+		padding: 10px;
+		margin-bottom: 60px;
 	}
 
 	.grid-container-drinks {
