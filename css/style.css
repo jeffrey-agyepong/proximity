@@ -5,7 +5,6 @@
 body {
 	color: #fff;
 	background-color: #000000;
-	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -24,10 +23,16 @@ section {
 	background: url(../img/hero-image.webp) no-repeat;
 	background-size: contain;
 	margin: 0 auto;
+
 }
 
 h1 {
 	font-family: 'Oswald', sans-serif;
+}
+
+h1,
+h2 {
+	text-align: center;
 }
 
 h1,
@@ -59,7 +64,7 @@ header .description {
 }
 
 header .description {
-	margin-top: 35px;
+	margin-top: 45px;
 }
 
 header p.tagline {
@@ -82,10 +87,10 @@ header li a:hover {
 }
 
 header div {
-	padding: 10px;
+	padding: 20px;
 }
 
-header ul {
+footer ul {
 	padding: 20px;
 }
 
@@ -117,11 +122,27 @@ header ul {
 
 .specials h2 {
 	color: #fa032c;
+	-webkit-text-stroke: 2px black;
 }
 
 .menu-description {
 	text-align: left;
 	font-style: italic;
+}
+
+.cold {
+	background: #4b0071;
+	border-radius: 10px;
+}
+
+.hot {
+	background: red;
+	border-radius: 10px;
+}
+
+.coffee {
+	background: #3c2b24;
+	border-radius: 10px;
 }
 
 /********************** Your Code Goes Here ******************/
@@ -195,14 +216,15 @@ header ul {
 /* Large Devices */
 @media screen and (min-width: 70rem) {
 
-	header,
+
 	section {
-		width: 960px;
+		width: 1000px;
 	}
 
 	.hero-image {
-		height: 70vh;
-		width: 960px;
+		height: 100vh;
+		margin: 0 auto;
+
 	}
 
 	.grid-container {
