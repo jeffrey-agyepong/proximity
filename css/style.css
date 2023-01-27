@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	background: #3f51b5;
+	background: #072d67;
 }
 
 header,
@@ -35,7 +35,7 @@ h1 {
 h1,
 h2,
 h3 {
-	font-size: 85px;
+	font-size: 60px;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -84,7 +84,7 @@ header li a:hover {
 }
 
 header div {
-	padding: 20px;
+	padding: 10px;
 }
 
 footer ul {
@@ -142,6 +142,24 @@ footer ul {
 	border-radius: 10px;
 }
 
+
+footer {
+	background-color: #072d67;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 5px 5px 0 0;
+	padding: 15px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul li a:hover {
+	color: red;
+}
+
 /********************** Your Code Goes Here ******************/
 
 
@@ -177,28 +195,21 @@ footer ul {
 		overflow-wrap: break-word;
 	}
 
-	h1,
-	h2 {
-		text-align: center;
-	}
 
 	h1,
 	h2,
 	h3 {
-		/* 100px */
-		font-size: 60px;
+		font-size: 50px;
 		font-weight: bold;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 	}
 
 	h2 {
-		/* 72px */
 		font-size: 30px;
 	}
 
 	h3 {
-		/* 48px */
 		font-size: 20px;
 	}
 
@@ -218,6 +229,9 @@ footer ul {
 /* Large Devices */
 @media screen and (min-width: 70rem) {
 
+	header {
+		height: 170px;
+	}
 
 	section {
 		width: 1000px;
@@ -235,7 +249,8 @@ footer ul {
 		margin-bottom: 60px;
 	}
 
-	.grid-container-drinks {
+	.grid-container-drinks,
+	.social-links {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
