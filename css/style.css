@@ -21,7 +21,7 @@ section {
 
 .hero-image {
 	background: url(../img/hero-image.webp) no-repeat;
-	background-size: contain;
+	background-size: cover;
 	margin: 0 auto;
 
 }
@@ -241,3 +241,8 @@ footer ul {
 	}
 
 }
+
+background: #4b0071;
+margin: 0 auto;
+width: 107px;
+border-radius: 10px 10px 0 0;
