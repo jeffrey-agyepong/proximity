@@ -122,6 +122,13 @@ video {
 	vertical-align: baseline;
 }
 
+/* Make images easier to work with */
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

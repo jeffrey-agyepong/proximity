@@ -19,11 +19,21 @@ section {
 	font-family: sans-serif;
 }
 
+section {
+	background: #0f1417;
+	border-radius: 10px;
+}
+
 .hero-image {
 	background: url(../img/hero-image.webp) no-repeat;
 	background-size: cover;
 	margin: 0 auto;
 
+}
+
+img {
+	margin: 0 auto;
+	max-height: 200px;
 }
 
 h1 {
@@ -128,7 +138,7 @@ footer ul {
 }
 
 .cold {
-	background: #4b0071;
+	background: #003993;
 	border-radius: 10px;
 }
 
@@ -243,18 +253,27 @@ ul li a:hover {
 
 	}
 
+	.flex-column {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
 	.grid-container {
 		grid-template-columns: 1fr 1fr;
-		padding: 10px;
-		margin-bottom: 60px;
+		padding: 10px 0;
 	}
 
 	.grid-container-drinks,
 	.social-links {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+		padding: 10px 0;
 	}
 
+	.mg-b-60 {
+		margin-bottom: 60px
+	}
 }
 
 background: #4b0071;
