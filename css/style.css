@@ -26,14 +26,16 @@ section {
 
 .hero-image {
 	background: url(../img/hero-image.webp) no-repeat;
-	background-size: cover;
+	background-size: contain;
 	margin: 0 auto;
+	background-position: center;
+	opacity: 0.8;
+	aspect-ratio: 16/9;
 
 }
 
 img {
 	margin: 0 auto;
-	max-height: 200px;
 }
 
 h1 {
@@ -167,13 +169,35 @@ footer {
 	padding: 15px;
 }
 
+ul li {
+	margin: 0.625rem;
+}
+
 ul li a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 1.5rem;
 }
 
 ul li a:hover {
-	color: red;
+	color: #FFD700;
+}
+
+.menu-img {
+	border-radius: 2.5rem;
+}
+
+.price {
+	display: block;
+	height: 2px;
+	background-color: #EEFF00;
+	width: 30%;
+}
+
+
+.grid-container-drinks .price {
+	width: 15%;
+	background-color: #EEFF00;
 }
 
 /********************** Your Code Goes Here ******************/
@@ -257,6 +281,10 @@ ul li a:hover {
 		height: 100vh;
 		margin: 0 auto;
 
+	}
+
+	img {
+		max-height: 200px;
 	}
 
 	.flex-column {
