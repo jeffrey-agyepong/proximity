@@ -131,7 +131,7 @@ footer ul {
 
 
 .specials {
-	background-color: rgb(0, 103, 103);
+	background-color: rgb(100, 0, 0);
 	border-radius: 20px;
 }
 
@@ -187,22 +187,6 @@ ul li a:hover {
 	border-radius: 2.5rem;
 }
 
-.price {
-	display: block;
-	height: 2px;
-	background-color: #EEFF00;
-	width: 30%;
-}
-
-.desserts {
-	width: 10%;
-}
-
-
-.grid-container-drinks .price {
-	width: 15%;
-	background-color: #EEFF00;
-}
 
 /********************** Your Code Goes Here ******************/
 
