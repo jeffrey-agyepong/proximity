@@ -270,6 +270,11 @@ ul li a:hover {
 
 	header {
 		height: 170px;
+
+	}
+
+	header,
+	.hero-image {
 		width: 1280px;
 	}
 
