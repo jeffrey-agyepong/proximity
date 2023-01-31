@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	background: #072d67;
+	background: hsl(216, 87%, 22%);
 }
 
 header,
@@ -26,12 +26,10 @@ section {
 
 .hero-image {
 	background: url(../img/hero-image.webp) no-repeat;
-	background-size: contain;
+	background-size: auto;
 	margin: 0 auto;
 	background-position: center;
 	opacity: 0.8;
-	aspect-ratio: 16/9;
-
 }
 
 img {
@@ -69,6 +67,10 @@ h4 {
 
 .center {
 	text-align: center;
+}
+
+.logo h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 header .logo,
@@ -165,7 +167,7 @@ footer {
 	background-color: #072d67;
 	text-align: center;
 	margin-top: 20px;
-	border-radius: 5px 5px 0 0;
+	border-radius: 8px 8px 0 0;
 	padding: 15px;
 }
 
@@ -247,9 +249,18 @@ ul li a:hover {
 		letter-spacing: 2.5px;
 	}
 
+	section {
+		width: 90%;
+		margin-bottom: 30px;
+	}
+
 	.grid-container,
 	.grid-container-drinks {
 		grid-template-rows: 1fr;
+	}
+
+	.menu-img {
+		padding: 1.25rem;
 	}
 }
 
@@ -259,6 +270,7 @@ ul li a:hover {
 
 	header {
 		height: 170px;
+		width: 1280px;
 	}
 
 	section {
@@ -266,7 +278,7 @@ ul li a:hover {
 	}
 
 	.hero-image {
-		height: 100vh;
+		height: 80vh;
 		margin: 0 auto;
 
 	}
@@ -295,6 +307,10 @@ ul li a:hover {
 
 	.mg-b-60 {
 		margin-bottom: 60px
+	}
+
+	div.grid-container-drinks:nth-child(5) {
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
