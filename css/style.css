@@ -21,7 +21,7 @@ section {
 
 section {
 	background: #0f1417;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 }
 
 .hero-image {
@@ -52,7 +52,6 @@ h3 {
 }
 
 h2 {
-	/* font-size: 34px; */
 	font-size: 2.125rem;
 	color: #dca821;
 }
@@ -80,19 +79,18 @@ header .description {
 }
 
 header .description {
-	margin-top: 45px;
+	margin-top: 2rem;
 }
 
 header p.tagline {
-	/* font-size: 24px; */
 	font-size: 1.5rem;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 0.1875rem;
 }
 
 header li {
 	float: left;
-	margin-right: 25px;
+	margin-right: 1.56rem;
 }
 
 header li a {
@@ -104,11 +102,11 @@ header li a:hover {
 }
 
 header div {
-	padding: 10px;
+	padding: 0.625rem;
 }
 
 footer ul {
-	padding: 20px;
+	padding: 1.25rem;
 }
 
 .flex {
@@ -122,7 +120,7 @@ footer ul {
 
 .column,
 .heading {
-	padding: 20px;
+	padding: 1.25rem;
 }
 
 .row {
@@ -134,12 +132,12 @@ footer ul {
 
 .specials {
 	background-color: rgb(100, 0, 0);
-	border-radius: 20px;
+	border-radius: 1.25rem;
 }
 
 .specials h2 {
 	color: #EEFF00;
-	-webkit-text-stroke: 2px black;
+	-webkit-text-stroke: 0.13rem black;
 }
 
 .menu-description {
@@ -149,26 +147,26 @@ footer ul {
 
 .cold {
 	background: #003993;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 }
 
 .hot {
 	background: #A80505;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 }
 
 .coffee {
 	background: #3c2b24;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 }
 
 
 footer {
 	background-color: #072d67;
 	text-align: center;
-	margin-top: 20px;
-	border-radius: 8px 8px 0 0;
-	padding: 15px;
+	margin-top: 1.25rem;
+	border-radius: 0.5rem 0.5rem 0 0;
+	padding: 0.9rem;
 }
 
 ul li {
@@ -187,19 +185,19 @@ ul li a:hover {
 
 .menu-img {
 	border-radius: 2.5rem;
+	margin: 1.25re auto;
 }
 
-
-/********************** Your Code Goes Here ******************/
-
-
+.mg-b-60 {
+	margin-bottom: 3.75rem !important;
+}
 
 
 /** Mobile **/
 @media screen and (max-width: 50rem) {
 
 	body {
-		font-size: 16px;
+		font-size: 1rem;
 		overflow-x: hidden;
 	}
 
@@ -208,15 +206,15 @@ ul li a:hover {
 	ul,
 	section {
 		width: 100%;
-		padding: 15px;
+		padding: 0.9rem;
 	}
 
 	.hero-image {
 		max-inline-size: 100%;
-
-		height: 40vh;
+		height: 30vh;
 		width: auto;
-
+		background-size: contain;
+		background-position: inherit;
 	}
 
 	.description,
@@ -229,29 +227,29 @@ ul li a:hover {
 	h1,
 	h2,
 	h3 {
-		font-size: 50px;
+		font-size: 3.12rem;
 		font-weight: bold;
 		text-transform: uppercase;
-		letter-spacing: 1px;
+		letter-spacing: 0.06rem;
 	}
 
 	h2 {
-		font-size: 30px;
+		font-size: 1.8rem;
 	}
 
 	h3 {
-		font-size: 20px;
+		font-size: 1.25rem;
 	}
 
 	header p.tagline {
-		font-size: 20px;
+		font-size: 1.25rem;
 		text-transform: uppercase;
-		letter-spacing: 2.5px;
+		letter-spacing: 0.15rem;
 	}
 
 	section {
 		width: 90%;
-		margin-bottom: 30px;
+		margin-bottom: 1.8rem;
 	}
 
 	.grid-container,
@@ -269,57 +267,52 @@ ul li a:hover {
 @media screen and (min-width: 70rem) {
 
 	header {
-		height: 170px;
+		height: 10.6rem;
 
 	}
 
-	header,
+	/* header,
 	.hero-image {
 		width: 1280px;
-	}
+	} */
 
 	section {
-		width: 960px;
+		width: 60rem;
 	}
 
 	.hero-image {
-		height: 80vh;
+		height: 100vh;
 		margin: 0 auto;
 
 	}
 
 	img {
-		max-height: 200px;
+		max-height: 12.5rem;
 	}
 
 	.flex-column {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		/* justify-content: center; */
+		justify-content: space-evenly;
+		align-items: stretch;
 	}
 
 	.grid-container {
 		grid-template-columns: 1fr 1fr;
-		padding: 10px 0;
+		padding: 1rem 0;
 	}
 
 	.grid-container-drinks,
 	.social-links {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		padding: 10px 0;
+		padding: 0.625rem 0;
 	}
 
-	.mg-b-60 {
-		margin-bottom: 60px
-	}
+
 
 	div.grid-container-drinks:nth-child(5) {
 		grid-template-columns: 1fr 1fr;
 	}
 }
-
-/* background: #4b0071;
-margin: 0 auto;
-width: 107px;
-border-radius: 10px 10px 0 0; */

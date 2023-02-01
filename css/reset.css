@@ -166,10 +166,6 @@ q:after {
 	content: none;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 .clearfix:before,
 .clearfix:after {
@@ -189,4 +185,11 @@ table {
  */
 .clearfix {
 	*zoom: 1;
+}
+
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
 }
